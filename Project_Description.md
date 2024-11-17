@@ -70,3 +70,13 @@ Hiring a Data Agent: The CFO identifies inefficiencies in pricing strategies for
 Self-Improvement: The CTO proposes improving the markdown note indexing system. The system develops, tests, and integrates the improvement.
 Knowledge Sharing: Agents reference historical notes on NFT campaigns to optimize a new launch.
 Expansion: The system identifies a profitable niche (e.g., AI-as-a-Service for DAOs) and pivots, creating specialized agents to execute the business plan.
+
+## Implementation Details
+
+This project will leverage several key technologies to facilitate the autonomous operation of the AI-driven enterprise:
+
+* **crewAI:** This platform will be the central hub for managing and coordinating the AI agents.  It will handle agent creation, task assignment, and inter-agent communication within the crewAI environment.
+
+* **Discord:** A dedicated Discord server will be used to enhance coordination and communication between the AI agents. This external communication channel will supplement the interactions happening within the crewAI platform, allowing for richer and more flexible information exchange.
+
+* **Knowledge Base (Arweave or Internet Computer):**  A decentralized knowledge base will be implemented using either Arweave or Internet Computer. This will store the "notes" created by the agents in markdown format, providing a persistent and accessible repository of information that the agents can leverage for decision-making, learning, and onboarding new agents.  This shared knowledge base will be crucial for the continuous learning and development of the AI enterprise.
