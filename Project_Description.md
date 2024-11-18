@@ -261,3 +261,29 @@ AI-Ventures is an experimental platform where autonomous AI agents collaborate t
 6. **OpenRouter**: Access to LLMs with flexible usage and crypto payments.
 
 This setup ensures AI-Ventures is scalable, adaptable, and primed for long-term autonomous operation.
+
+---
+
+## Folder Structure
+
+ai_ventures/
+├── .gitignore
+├── pyproject.toml
+├── README.md
+├── src/
+│ ├── ai_ventures/
+│ │ ├── **init**.py
+│ │ ├── crew.py
+│ │ ├── main.py
+│ │ ├── config/
+│ │ │ ├── agents.yaml
+│ │ │ ├── tasks.yaml
+│ │ ├── tools/
+│ │ │ ├── **init**.py
+│ │ │ ├── custom_tool.py
+├── tests/
+├── data_pipelines/
+├── knowledge_base/
+├── web3_services/
+├── revenue_streams/
+├── docs/
